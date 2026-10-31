@@ -10,8 +10,6 @@ A fitness app UI built with **Flutter**, based on a 3-screen design prototype: S
 |---|---|-------------------------------------|
 | ![Splash](screenshots/splash.png) | ![Home](screenshots/home.png) | ![Details](screenshots/details.png) |
 
-*(Add your own screenshots to a `screenshots/` folder and the table above will display them.)*
-
 ## Features
 
 - **Splash screen** with a full-bleed photo, gradient overlay, logo and a "Get Started" button with a fade transition
@@ -128,12 +126,6 @@ flutter build apk --release
 
 The APK is generated at `build/app/outputs/flutter-apk/app-release.apk`.
 
-## Known Notes
-
-- `google_fonts` is pinned to `8.2.1` because newer versions return a `TextTheme` type that doesn't match Flutter's `ThemeData` in this setup. If you migrate the project to `material_ui`, you can upgrade it.
-- Workouts, Nutrition, Progress and Profile tabs are placeholders for now.
-- The search bar and the Start Workout button are UI only.
-
 ## Roadmap
 
 - [ ] Workouts tab listing all workouts
@@ -145,9 +137,8 @@ The APK is generated at `build/app/outputs/flutter-apk/app-release.apk`.
 
 ## Author
 
-**Your Name**
-GitHub: [@your-username](https://github.com/your-username)
+Smaran Aryal 
 
 ## License
 
-This project is for learning purposes. Add a license of your choice (for example MIT) before sharing it publicly.
+This project is for learning purposes.
